@@ -1,0 +1,51 @@
+abstract :
+
+- 
+
+kombinasi vim di html :
+
+- c i t : untuk masuk ke dalam tag
+
+kumpulan perintah vim :
+
++ dalam normal mode :
+
+- y : untuk men-copy yang sudah di block(visual)
+- d : untuk men-delete yang sudah di blok
+- u : untuk meng-undo
+- p : untuk mem-paste
+- o : untuk membuat baris baru dan sekaligus masuk ke insert mode
+- n : untuk mencari kata atau kalimat yang di cari, setelah memasukkan perintah '/' dan akan meninggalkan mark
+- w : untuk maju ke kata berikutnya dan kursor berada di awal kata berikutnya
+- e : untuk maju ke kata berikutnya dan kursor berada di akhir kata yang ditempati
+- b : untuk mundur ke kata sebelumnya dan kursor berada di awal kata sebelumnya
+- x : untuk men-delete atau men-cut karakter yang ditempati kursor atau yang di blok
+- q : menghentikan reqord yang sedang berlangsung
+- q a : untuk membuat record dan 'a' itu bisa di ganti dengan hal yang berbeda
+- @ a : untuk meng-aktifkan record yang telah di rekam, dan 'a' itu relative(bisa jadi bukan a)
+- Y : untuk mencopy satu line langsung atau line yang di blok semuanya
+- D : untuk men-delete dari kursor berada ke akhir baris atau line yang di blok semuanya
+
+
+vim config <kj> as <Esc> :
+
+- in terminal :
+inoremap kj <Esc>
+cnoremap kj <Esc>
+- in vscode :
+search in file>preferences>settings>and insert mode key bindings
+"security.workspace.trust.untrustedFiles": "open",
+    "vim.insertModeKeyBindings": [
+    {
+        "before": ["k", "j"],
+        "after": ["<Esc>"]
+    }    
+    ]
+
+pertanyaan :
+
+- 
+
+
+
+
