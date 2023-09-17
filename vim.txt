@@ -30,6 +30,7 @@ kumpulan perintah vim :
 vim config <kj> as <Esc> :
 
 - in terminal :
+write in cmd "vim ~/.vimrc" then enter the following code :
 inoremap kj <Esc>
 cnoremap kj <Esc>
 - in vscode :
